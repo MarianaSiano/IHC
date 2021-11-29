@@ -56,5 +56,10 @@ Quando estiver tudo pronto, volte para a main: git checkout main <br>
 
 * [Curso PHP](https://www.udemy.com/course/web-completo/#overview) <br><br>
 
-\* Usar a versão 4.1 <br>
+\* Usar a versão 4.1 do Bootstrap <br>
+\* Pode-se usar o Framework do HTML/CSS (Bootstrap) sem a necessidade de baixá-lo <br>
 \* Deixar Responsivo <br>
+
+## Link do Documento de Requisitos
+
+* Para baixar ou editar o arquivo do Documento de Requistos [Link aqui](https://docs.google.com/document/d/12trshuUEvP62mQZ1d1a5LaLJRkfeT-uG34bosyHo_ns/edit) <br>
