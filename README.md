@@ -63,3 +63,5 @@ Quando estiver tudo pronto, volte para a main: git checkout main <br>
 ## Link do Documento de Requisitos
 
 * Para baixar ou editar o arquivo do Documento de Requistos [Link aqui](https://docs.google.com/document/d/12trshuUEvP62mQZ1d1a5LaLJRkfeT-uG34bosyHo_ns/edit) <br>
+
+* Para baixar ou editar o arquivo do Enunciado do Trabalho [Link aqui](https://drive.google.com/file/d/1WZ94AtaB0S_1F55-SiTuxlVjSJ6l7Xbe/view) <br>
