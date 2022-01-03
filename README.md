@@ -60,6 +60,8 @@ Quando estiver tudo pronto, volte para a main: git checkout main <br>
 \* Pode-se usar o Framework do HTML/CSS (Bootstrap) sem a necessidade de baixá-lo <br>
 \* Deixar Responsivo <br>
 
-## Link do Documento de Requisitos
+## Link do Documento de Requisitos e o Enunciado
 
 * Para baixar ou editar o arquivo do Documento de Requistos [Link aqui](https://docs.google.com/document/d/12trshuUEvP62mQZ1d1a5LaLJRkfeT-uG34bosyHo_ns/edit) <br>
+
+* Para baixar ou editar o arquivo do Enunciado do Trabalho [Link aqui](https://drive.google.com/file/d/1WZ94AtaB0S_1F55-SiTuxlVjSJ6l7Xbe/view) <br>
