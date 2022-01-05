@@ -1,0 +1,286 @@
+/* Elementos */
+
+body {
+    font-family: "Arial Rounded MT Bold", Arial, Helvetica, sans-serif !important;
+    background-color: whitesmoke;
+}
+
+/* ADM Categorias */
+
+.btn.btn-warning.botao-padrao {
+    background-color: #191970 !important;
+    border-color: #191970 !important;
+    color: white !important;
+}
+
+.btn.btn-warning.botao-padrao:hover {
+    background-color: #191970 !important;
+    border-color: #191970 !important;
+    color: #FF0000 !important;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.btn.btn-warning.btn-preto {
+    background-color:whitesmoke !important;
+    border-color: #191970 !important;
+    color: #191970 !important;
+    font-weight: bold;
+}
+
+.btn.btn-warning.btn-preto:hover {
+    background-color: #191970 !important;
+    border-color: #191970 !important;
+    color: whitesmoke !important;
+    font-weight: bold;
+}
+
+.btn.btn-warning.btn-amarelo {
+    background-color:whitesmoke !important;
+    border-color: #FF0000 !important;
+    color: 	#FF0000 !important;
+    font-weight: bold;
+}
+
+.btn.btn-warning.btn-amarelo:hover {
+    background-color: #FF0000 !important;
+    border-color: #FF0000 !important;
+    color: whitesmoke !important;
+    font-weight: bold;
+}
+
+/* Texto */
+
+h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #FF0000 !important;
+}
+
+h4 {
+    color: #191970;
+    text-transform: uppercase;
+    font-size: 14px !important;
+}
+
+/* Links */
+
+a {
+    color: #0000FF !important;
+    font-weight: bold !important;
+}
+
+.link-produto {
+    color: #191970 !important;
+}
+
+.link-produto:hover {
+    color: #FF0000 !important;
+    cursor: pointer !important;
+    text-decoration: none !important;
+}
+
+.link-categoria {
+    color: #191970 !important;
+    text-transform: uppercase;
+    font-size: 14px !important;
+    font-weight: normal !important;
+}
+
+.link-categoria:hover {
+    color: #000080  !important;
+    text-transform: uppercase;
+    font-size: 14px !important;
+    text-decoration: none !important;
+    font-weight: 700 !important;
+}
+
+/* Cards */
+
+.card-text {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.card-title {
+    font-weight: 800;
+}
+
+.card-body {
+    text-align: center;
+}
+
+/* Área de Disciplinas */
+.row.justify-content-between.geral-produtos {
+    width: 80% !important;
+    margin-left: 10% !important;
+}
+
+.row.justify-content-between.destaque-produtos {
+    width: 75% !important;
+    margin-left: 12.5% !important;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+/* Barra Pesquisa */
+
+.principal {
+    background-color: whitesmoke !important;
+}
+
+.breadcrumb {
+    margin: 10px 4px !important;
+    background-color: whitesmoke !important;
+}
+
+.form-inputs {
+    position: relative
+}
+
+.form-inputs .form-control {
+    height: 45px
+}
+
+.form-inputs .form-control:focus {
+    box-shadow: none;
+    border: 1px solid #000;
+}
+
+.form-inputs i {
+    position: absolute;
+    right: 10px;
+    top: 15px
+}
+
+.qty {
+    font-size: 12px
+}
+
+/* Paginação */
+
+.page-link {
+    background-color: #B0C4DE !important;
+    border: 1px solid whitesmoke;
+}
+
+.pagination {
+    margin-top: 25px !important;
+    margin-bottom: 30px !important;
+}
+
+/* Tabela */
+
+.table-responsive {
+    margin: 30px 0;
+}
+
+.table-wrapper {
+    min-width: 1000px;
+    padding: 30px;
+    padding-top: 0px !important;
+    margin-top: 0px !important;
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+
+thead tr {
+    background-color: #070607 !important;
+    color: whitesmoke !important;
+    font-weight: normal !important;
+}
+
+thead tr th {
+    border-color: black !important;
+}
+
+table.table tr th, table.table tr td {
+    border-color: #e9e9e9;
+}
+
+table.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #fcfcfc;
+}
+
+table.table-striped.table-hover tbody tr:hover {
+    background: #e9e9e9;
+}
+
+table.table th i {
+    font-size: 13px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+table.table td:last-child {
+    width: 130px;
+}
+
+table.table td a {
+    color: #191970;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+table.table td a.view {
+    color: #4169E1 !important;
+    cursor: pointer;
+}
+
+table.table td a.edit {
+    color: #FFD700 !important;
+    cursor: pointer;
+}
+
+table.table td a.delete {
+    color: #FF0000 !important;
+    cursor: pointer;
+}
+
+table.table td i {
+    font-size: 19px;
+}
+
+.add-product {
+    background-color: #0000FF !important;
+    border-radius: 40px;
+    height: 80%;
+    text-align: center;
+}
+.add-product p {
+    padding-top: 8px;
+}
+
+.card {
+    background-color: whitesmoke;
+}
+
+/* Modal */
+.texto-modal {
+    margin-top: 2rem !important;
+}
+
+.texto-modal h3 {
+    color: #070607 !important;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.texto-modal p {
+    font-size: 1.1em;
+}
+
+.texto-modal .row {
+    margin-bottom: 1rem;
+}
+
+.modal-title {
+    font-weight: bold;
+    color: #FF0000;
+}
+
+.card-body {
+text-align: left !important;
+}
+
+.card {
+border: whitesmoke !important;
+}

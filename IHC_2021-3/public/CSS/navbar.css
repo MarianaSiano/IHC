@@ -1,0 +1,27 @@
+/* Home */
+
+/* Elementos */
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Arial Rounded MT Bold", Arial, Helvetica, sans-serif !important;
+}
+
+/* Classes */
+
+.navbar-home {
+    background-color: #FF0000 !important;
+}
+
+.nav-link {
+    color: #FFFFFF !important;
+}
+
+.navbar-brand {
+    padding-right: 15px;
+    padding-left: 15px;
+}
