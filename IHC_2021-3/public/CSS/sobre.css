@@ -1,0 +1,29 @@
+/* Elementos */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Arial Rounded MT Bold", Arial, Helvetica, sans-serif !important;
+    background-color: whitesmoke;
+}
+
+/* Página Sobre */
+/* Classes */
+
+.main {
+    padding: 60px 130px 20px 60px;
+}
+
+.sobre h2 {
+    text-align: center;
+    font-size: 50px;
+    color: #FF0000;
+}
+
+.sobre p {
+    text-align: justify;
+    font-size: 20px;
+    color: #800000;
+}
