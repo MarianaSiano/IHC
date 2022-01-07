@@ -1,0 +1,25 @@
+/* Elementos */
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Arial Rounded MT Bold", Arial, Helvetica, sans-serif !important;
+    background-color: whitesmoke;
+}
+
+/* Classes */
+.miniatura {
+    padding: 215px;
+    padding-top: 180px;
+    padding-bottom: 90px;
+}
+
+.cartao {
+    background-color: #DCDCDC;
+    display: inline-block;
+    margin-right: 16px;
+    margin-bottom: 18px;
+}
