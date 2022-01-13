@@ -15,10 +15,14 @@ body {
 }
 
 table{
-    border-bottom: 2px solid rgb(44, 41, 41);
+    border-bottom: 3px solid rgb(44, 41, 41);
 }
 thead{
     background: rgb(44, 41, 41);
     color:white;
     font-weight: bold;
+}
+
+.divider{
+    border-top: 2px solid rgb(44, 41, 41);
 }
