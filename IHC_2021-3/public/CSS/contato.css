@@ -45,7 +45,25 @@ body {
 }
 
 .btn-call-to-action {
-    background-color: #191970;
+    background-color: #FF0000;
     color: #FFFFFF;
-    border: #191970;
+    border: #FF0000;
+}
+
+/* Responvidade */
+
+@media (max-width: 800px) {
+
+    body {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .instrucoes h1 {
+        text-align: center;
+    }
+
+    .instrucoes p {
+        text-align: justify;
+    }
 }
