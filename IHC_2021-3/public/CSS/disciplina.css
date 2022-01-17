@@ -284,3 +284,18 @@ text-align: left !important;
 .card {
 border: whitesmoke !important;
 }
+
+/* Responsividade */
+
+@media (max-width: 750px) {
+
+    .card {
+        width: 100%;
+        padding-right: 150px;
+        padding-left: 150px;
+    }
+
+    .table {
+        max-width: 80%;
+    }
+}

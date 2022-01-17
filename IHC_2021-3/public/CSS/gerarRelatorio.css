@@ -14,15 +14,16 @@ body {
     line-height: 50px;
 }
 
-table{
+table {
     border-bottom: 3px solid rgb(44, 41, 41);
 }
-thead{
+
+thead {
     background: rgb(44, 41, 41);
     color:white;
     font-weight: bold;
 }
 
-.divider{
+.divider {
     border-top: 2px solid rgb(44, 41, 41);
 }
