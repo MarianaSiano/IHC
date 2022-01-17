@@ -27,3 +27,23 @@ body {
     font-size: 20px;
     color: #800000;
 }
+
+/* Responsividade */
+
+@media (max-width: 750px) {
+
+    .sobre {
+        width: 100%;
+        max-width: 85%;
+
+        margin-left: 55px;
+    }
+
+    .sobre h2 {
+        text-align: center;
+    }
+
+    .sobre p {
+        text-align: justify;
+    }
+}

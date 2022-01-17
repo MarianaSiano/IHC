@@ -23,3 +23,18 @@ body {
     margin-right: 16px;
     margin-bottom: 18px;
 }
+
+/* Responsividade */
+
+@media (max-width: 750px) {
+    .miniatura {
+        width: 100%;
+        padding-right: 150px;
+        padding-left: 150px;
+    }
+
+    .cartao {
+        display: block;
+        max-width: 90%;
+    }
+}
