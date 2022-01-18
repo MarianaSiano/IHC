@@ -52,11 +52,45 @@ Quando estiver tudo pronto, volte para a main: git checkout main <br>
 
 * [Bootstrap](https://getbootstrap.com.br) <br><br>
 
+## Cursos na Udemy
+
 * [Curso HTML e CSS3](https://www.udemy.com/course/curso-pratico-html-css-construa-seu-portfolio-online/#overviewtps) <br><br>
 
 * [Curso PHP](https://www.udemy.com/course/web-completo/#overview) <br><br>
 
-* [Curso Gratuido de Bootstrap](https://www.udemy.com/course/draft/3959224/learn/lecture/26390070?start=0#overview) <br><br>
+## Cursos Gratuitos na Udemy
+
+## Bootstrap
+
+* [Bootstrap por Codans Cursos | Jamilton Damasceno](https://www.udemy.com/course/draft/3959224/learn/lecture/26390070?start=0#overview) <br><br>
+
+## HTML
+
+* [Introdução à Linguagem HTML por Diego Mariano](https://www.udemy.com/course/introducao-a-linguagem-html/learn/lecture/9891832?start=0#overview) <br><br>
+
+* [HTML5: Primeiros Passos para Desenvolvedor por Codans Cursos | Jamiton Damasceno](https://www.udemy.com/course/draft/3953634/learn/lecture/26390024?start=0#overview) <br><br>
+
+## CSS
+
+* [Introdução à Linguagem CSS por Diego Mariano](https://www.udemy.com/course/introducao-a-linguagem-css/learn/lecture/11902866?start=0#overview) <br><br>
+
+* [CSS3: Primeiros Passos para Desenvolvedor por Codans Cursos | Jamilton Damasceno](https://www.udemy.com/course/draft/3959170/learn/lecture/26452788?start=0#overview) <br><br>
+
+## Javascript
+
+* [Javascript: Primeiros Passos para Desenvolvedor por Codans Cursos | Jamilton Damasceno](https://www.udemy.com/course/draft/3953624/learn/lecture/26390060?start=0#overview) <br><br>
+
+## PHP
+
+* [Boas Práticas em PHP por Diego Mariano](https://www.udemy.com/course/draft/1902516/learn/lecture/11709236?start=0#overview) <br><br>
+
+* [Introdução ao PHP Orientado a Objetos por Diego Mariano](https://www.udemy.com/course/php-orientado-a-objetos/learn/lecture/11823472?start=0#overview) <br><br>
+
+* [Introdução à Criação de Sites Dinâmicos com PHP por Diego Mariano](https://www.udemy.com/course/criacao-de-paginas-de-internet-dinamicas-com-php-basico/learn/lecture/9850364?start=0#overview) <br><br>
+
+## Banco de Dados MySQL
+
+* [Introdução a Banco de Dados com MySQL & PHPMyAdmin por Diego Mariano](https://www.udemy.com/course/mysql_phpmyadmin/learn/lecture/12827153?start=0#overview) <br><br>
 
 \* Usar a versão 4.1 do Bootstrap <br>
 \* Pode-se usar o Framework do HTML/CSS (Bootstrap) sem a necessidade de baixá-lo <br>
