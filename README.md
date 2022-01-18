@@ -52,13 +52,19 @@ Quando estiver tudo pronto, volte para a main: git checkout main <br>
 
 * [Bootstrap](https://getbootstrap.com.br) <br><br>
 
-## Cursos na Udemy
+## Observações
+
+\* Usar a versão 4.1 do Bootstrap <br>
+\* Pode-se usar o Framework do HTML/CSS (Bootstrap) sem a necessidade de baixá-lo <br>
+\* Deixar Responsivo <br>
+
+# Cursos na Udemy
 
 * [Curso HTML e CSS3](https://www.udemy.com/course/curso-pratico-html-css-construa-seu-portfolio-online/#overviewtps) <br><br>
 
 * [Curso PHP](https://www.udemy.com/course/web-completo/#overview) <br><br>
 
-## Cursos Gratuitos na Udemy
+# Cursos Gratuitos na Udemy
 
 ## Bootstrap
 
@@ -91,10 +97,6 @@ Quando estiver tudo pronto, volte para a main: git checkout main <br>
 ## Banco de Dados MySQL
 
 * [Introdução a Banco de Dados com MySQL & PHPMyAdmin por Diego Mariano](https://www.udemy.com/course/mysql_phpmyadmin/learn/lecture/12827153?start=0#overview) <br><br>
-
-\* Usar a versão 4.1 do Bootstrap <br>
-\* Pode-se usar o Framework do HTML/CSS (Bootstrap) sem a necessidade de baixá-lo <br>
-\* Deixar Responsivo <br>
 
 ## Link do Documento de Requisitos e o Enunciado
 
