@@ -27,3 +27,15 @@ thead {
 .divider {
     border-top: 2px solid rgb(44, 41, 41);
 }
+
+@media (max-width: 990.98px){
+    .header-main{
+        font-size: 0.8em;
+    }
+    .legend{
+        font-size: 1em;
+    }
+    .table {
+        font-size: 0.8em;
+    }
+}
