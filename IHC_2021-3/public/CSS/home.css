@@ -43,9 +43,11 @@ a:hover{
 
 @media (max-width: 690px){
     .miniatura {
-        margin: 5% auto;
-        max-width: 980px;
-        display: flex;
         justify-content: center;
+    }
+}
+@media (max-width: 650px){
+    .cartao{
+        margin-right: 0;
     }
 }

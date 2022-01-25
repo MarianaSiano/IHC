@@ -2,6 +2,7 @@
 html, body {
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 
 body {
@@ -13,37 +14,44 @@ body {
 /* Classes */
 
 .main {
-    padding: 60px 130px 20px 60px;
+    max-width: 1180px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+    /* padding: 60px 130px 20px 60px; */
+}
+.sobre{
+    margin-top: 5%;
 }
 
 .sobre h2 {
     text-align: center;
-    font-size: 50px;
+    font-size: 3.2em;
     color: #FF0000;
 }
 
 .sobre p {
     text-align: justify;
-    font-size: 20px;
+    font-size: 1.3em;
     color: #800000;
 }
 
 /* Responsividade */
-
-@media (max-width: 750px) {
-
+@media (max-width: 1150.98px) {
     .sobre {
         width: 100%;
         max-width: 85%;
-
-        margin-left: 55px;
     }
+}
 
+@media (max-width: 500.98px) {
     .sobre h2 {
-        text-align: center;
+        font-size: 2.4em;
     }
-
-    .sobre p {
-        text-align: justify;
+    .sobre p{
+        font-size: 1em;
     }
 }

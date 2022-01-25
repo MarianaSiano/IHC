@@ -9,6 +9,8 @@ html, body {
 
 body {
     font-family: "Arial Rounded MT Bold", Arial, Helvetica, sans-serif !important;
+    background-color: whitesmoke;
+
 }
 
 /* Classes */
@@ -24,4 +26,34 @@ body {
 .navbar-brand {
     padding-right: 15px;
     padding-left: 15px;
+}
+
+.miniatura {
+    padding: 0 5%;
+    margin: 5% auto;
+    max-width: 980px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cartao {
+    background-color: #DCDCDC;
+}
+
+.cartao:hover {
+    background-color: #c3c3c3;
+}
+
+a {
+    text-decoration: none;
+    color: #001 !important;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.card-text {
+    font-size: 1.2em;
 }
