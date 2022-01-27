@@ -12,9 +12,12 @@ body {
 
 /* Classes */
 .miniatura {
-    padding: 215px;
-    padding-top: 180px;
-    padding-bottom: 90px;
+    max-width: 980px;
+    margin: 0 auto;
+    margin-top: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
 .cartao {
@@ -23,18 +26,28 @@ body {
     margin-right: 16px;
     margin-bottom: 18px;
 }
+.cartao:hover{
+    background-color: #c3c3c3;
+}
+
+a{  
+    text-decoration: none;
+    color: #001 !important;
+}
+
+a:hover{
+    text-decoration: none;
+}
 
 /* Responsividade */
 
-@media (max-width: 750px) {
+@media (max-width: 750px){
     .miniatura {
-        width: 100%;
-        padding-right: 150px;
-        padding-left: 150px;
+        justify-content: center;
     }
-
-    .cartao {
-        display: block;
-        max-width: 90%;
+}
+@media (max-width: 620px){
+    .cartao{
+        margin-right: 0;
     }
 }

@@ -1,0 +1,10 @@
+.breadcrumb {
+    margin: 10px 4px !important;
+    background-color: whitesmoke !important;
+    font-size: 0.9em;
+}
+
+#barchart_material{
+    width: 980px;
+    margin: 0 auto;
+}
