@@ -1,7 +1,7 @@
-function defineTamanhoGrafico(){
-  let height =  Math.round(window.innerHeight*1.2);
-  $("#barchart_material").css("height",height+"px");  
-} 
+function defineTamanhoGrafico() {
+  let height = Math.round(window.innerHeight * 1.2);
+  $("#barchart_material").css("height", height + "px");
+}
 
 
 
@@ -11,17 +11,16 @@ google.charts.setOnLoadCallback(drawChart);
 function drawChart() {
   var data = google.visualization.arrayToDataTable(datas);
 
-var options = {
+  var options = {
     chart: {
-        title: title,
-        // subtitle: 'Sales, Expenses, and Profit: 2014-2017',
+      title: title,
     },
-    bars: 'horizontal', // Required for Material Bar Charts.
-};
+    bars: 'horizontal',
+  };
 
-var chart = new google.charts.Bar(document.getElementById('barchart_material'));
+  var chart = new google.charts.Bar(document.getElementById('barchart_material'));
 
-chart.draw(data, google.charts.Bar.convertOptions(options));
+  chart.draw(data, google.charts.Bar.convertOptions(options));
 }
 
 defineTamanhoGrafico();
