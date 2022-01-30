@@ -1,0 +1,21 @@
+.container{
+    margin: 0 auto;
+}
+.legend {
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.2em !important;
+}
+.text-center a{
+    font-weight: normal !important;
+    color: #17a2b8 !important;
+}
+.text-center a:hover{
+    color: white !important;
+}
+
+@media (max-width: 1000px) {
+    .legend {
+        font-size: 1em !important;
+    }
+}

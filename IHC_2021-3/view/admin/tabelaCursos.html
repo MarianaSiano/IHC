@@ -9,14 +9,8 @@
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
       <link rel="stylesheet" href="../../public/CSS/disciplina.css">
-
-      <script>
-        $(document).ready(function(){
-          $('[data-toggle="tooltip"]').tooltip();
-        });
-      </script>
+      <link rel="stylesheet" href="../../public/CSS/tabelaCursos.css">
 
   </head>
   <body>
@@ -34,11 +28,11 @@
             <div class="col-md-4">
               <nav aria-label="Breadcrumb navigation" role="navigation">
                 <ol class="breadcrumb">
-                  <li class="breadcrumb-item"><a href="#">Dashboard</a></li>
-                  <li class="breadcrumb-item active" aria-current="page">ADM Cursos</li>
+                  <li class="breadcrumb-item"><a href="./admHome.html">Home</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Gráfico de Avaliação por Curso</li>
                 </ol>
               </nav>
-            </div>
+          </div>
 
             <div class="col-md-8">
                 <div class="d-flex form-inputs"> <input class="form-control" type="text" placeholder="Digite o nome do curso"> <i class="bx bx-search"></i> </div>
@@ -48,180 +42,119 @@
         </div>
       </section>
 
-      <!-- Fim do breadcrumb e busca -->
-
-      <!-- Tabela de Disciplinas -->
-
-      <div class="d-flex justify-content-between align-items-center mb-2 mt-4 mr-4">
-        <h4 class="mt-2 mb-2 header-title"></h4>
-        <a data-target="#adicionarProduto"  class="btn btn-warning btn-preto" data-toggle="modal">
-          <i class="ri-add-circle-fill"></i> Adicionar Curso
-        </a>
-      </div>
-      
-      <div class="card">
-        <div class="card-body">
-          <table class="table" style="border-collapse: collapse; border-spacing: 0; ">
-            <thead class="thead-dark">
-              <tr>
-                <th>Curso</th>
-                <th>Coordenador</th>
-                <th>Vice-Coordenador</th>
-                <th>Ações</th>
-              </tr>
+      <!-- Fim do breadcrumb e busca -->      
+      <h4 class="legend text-center">Resultados das avaliações discentes Ciência da Computação-Diurno</h4>
+      <div class="container text-center table-responsive">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <td>ID</td>
+                    <td>Curso</td>
+                    <td>A</td>
+                    <td>B</td>
+                    <td>C</td>
+                    <td>D</td>
+                    <td>E</td>
+                    <td>F</td>
+                    <td>G</td>
+                    <td>H</td>
+                    <td>I</td>
+                    <td>J</td>
+                    <td>K</td>
+                    <td>L</td>
+                    <td>M</td>
+                </tr>
             </thead>
-            <tbody>
-              <tr>
-                <td>Ciência da Computação (Integral)</td>
-                <td>Fabrício Martins Mendonça</td>
-                <td>Gleiph Ghiotto Lima de Menezes</td>
-                <td>
-                  <a data-target="#visualizarDisciplina" class="view" title="Visualizar" data-toggle="modal"><i class="material-icons">&#xE417;</i></a>
-                  <a data-target="#editarDisciplina" class="edit" title="Editar" data-toggle="modal"><i class="material-icons">&#xE254;</i></a>
-                  <a href="#" class="delete" title="Deletar" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+            <tr>
+                <td class="font-weight-bold">D1</td>
+                <td>CC-D</td>
+                <td>4</td>
+                <td>5</td>
+                <td>5</td>
+                <td>5</td>
+                <td>5</td>
+                <td>5</td>
+                <td>3</td>
+                <td>3</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>5</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td class="font-weight-bold">D2</td>
+                <td>CC-D</td>
+                <td>4</td>
+                <td>5</td>
+                <td>5</td>
+                <td>5</td>
+                <td>5</td>
+                <td>5</td>
+                <td>3</td>
+                <td>3</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>5</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td class="font-weight-bold">D3</td>
+                <td>CC-D</td>
+                <td>5</td>
+                <td>5</td>
+                <td>5</td>
+                <td>5</td>
+                <td>5</td>
+                <td>5</td>
+                <td>3</td>
+                <td>3</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>5</td>
+                <td>4</td>
+            </tr>
+            <tr class = "divider"></tr>
+                <td class="font-weight-bold" colspan="2">Média</td>
+                <td>4.63</td>
+                <td>4.63</td>
+                <td>4.9</td>
+                <td>5</td>
+                <td>4.63</td>
+                <td>4.73</td>
+                <td>9.91</td>
+                <td>4.36</td>
+                <td>4</td>
+                <td>4.82</td>
+                <td>4.82</td>
+                <td>4.45</td>
+                <td>4.64</td>
+            </tr>
+            <tr class="font-weight-bold">
+                <td colspan="2">Média</td>
+                <td>100%</td>
+                <td>96%</td>
+                <td>98%</td>
+                <td>100%</td>
+                <td>100%</td>
+                <td>98%</td>
+                <td>84%</td>
+                <td>94%</td>
+                <td>95.6%</td>
+                <td>100%</td>
+                <td>98%</td>
+                <td>94%</td>
+                <td>96%</td>
+            </tr>
+        </table>
+      </div>
+      <div class="mt-5 mb-5 text-center">
+          <a href="./admHome.html" class="btn btn-outline-info">Terminar</a>
       </div>
 
       <!-- Fim da Tabela de Disciplinas -->
-
-    <!-- Paginação -->
-
-    <nav aria-label="Page navigation example">
-      <ul class="pagination justify-content-center">
-        <li class="page-item">
-          <a class="page-link" href="#" aria-label="Previous">
-            <span aria-hidden="true">&laquo;</span>
-            <span class="sr-only">Anterior</span>
-          </a>
-        </li>
-        <li class="page-item"><a class="page-link" href="#">1</a></li>
-        <li class="page-item"><a class="page-link" href="#">2</a></li>
-        <li class="page-item"><a class="page-link" href="#">3</a></li>
-        <li class="page-item">
-          <a class="page-link" href="#" aria-label="Next">
-            <span aria-hidden="true">&raquo;</span>
-            <span class="sr-only">Próxima</span>
-          </a>
-        </li>
-      </ul>
-    </nav>
-    <!-- Fim da Paginação -->
-
-
-  <!-- Modal -->
-
-    <!-- Modal Visualizar -->
-    <div class="modal fade" id="visualizarDisciplina" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Disciplina</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <div class="container-fluid">
-
-              <div class="texto-modal">
-                <div class="row">
-                  <div class="col-sm-6">
-                    <h3>Curso</h3>
-                    <p>Ciência da Computação (Integral)</p>
-                  </div>
-                  <div class="col-sm-6">
-                    <h3>Coordenador:</h3>
-                    <p>Fabrício Martins Mendonça</p>
-                    <h3>Vice-Coordenador:</h3>
-                    <p>Gleiph Ghiotto Lima de Menezes</p>
-                  </div>
-                </div>           
-              </div>
-
-            </div>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-warning btn-amarelo" data-dismiss="modal" data-toggle="modal" data-target="#editarProduto">Editar</button>
-            <button type="button" class="btn btn-warning btn-preto" data-dismiss="modal">Fechar</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Modal Editar -->
-    <div class="modal fade" id="editarDisciplina" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-        <div class="modal-content">
-        <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Editar Disciplina</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-            <span aria-hidden="true">&times;</span>
-            </button>
-        </div>
-        <div class="modal-body">
-
-            <!--Form Modal Editar-->
-            <div class="formularioEditar">
-              <input class="form-control" type="text" placeholder="Curso">
-              <br>
-              <input class="form-control" type="text" placeholder="Coordenador">
-              <br>
-              <input class="form-control" type="text" placeholder="Vice-Coordenador">
-              <br>
-              <br>
-            </div>
-            <!--Fim Form Modal Editar-->
-        </div>
-
-        <div class="modal-footer">
-          <button type="button" class="btn btn-warning btn-amarelo">Salvar mudanças</button>
-          <button type="button" class="btn btn-warning btn-preto" data-dismiss="modal">Fechar</button>
-        </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Modal Adicionar -->
-
-    <div class="modal fade" id="adicionarProduto" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-        <div class="modal-content">
-        <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Adicionar Disciplina</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-            <span aria-hidden="true">&times;</span>
-            </button>
-        </div>
-        <div class="modal-body">
-
-            <!--Form Modal Adicionar-->
-
-            <div class="formularioAdicionar">
-                <input class="form-control" type="text" placeholder="Curso">
-                <br>
-                <input class="form-control" type="text" placeholder="Coordenador">
-                <br>
-                <input class="form-control" type="text" placeholder="Vice-Coordenador">
-                <br>
-                <br>
-          </div>
-
-            <!--Fim Form Modal Adicionar-->
-            
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-warning btn-amarelo">Salvar mudanças</button>
-          <button type="button" class="btn btn-warning btn-preto" data-dismiss="modal">Fechar</button>
-        </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Fim modal -->
 
     <script src="scripts.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
