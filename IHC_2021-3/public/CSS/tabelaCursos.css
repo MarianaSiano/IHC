@@ -19,3 +19,14 @@
         font-size: 1em !important;
     }
 }
+@media (max-width: 660px) {
+    .legend {
+        font-size: 0.8em !important;
+    }
+}
+@media (max-width: 510px){
+    .legend {
+        line-height: 25px;
+        font-size: 0.8em !important;
+    }
+}
