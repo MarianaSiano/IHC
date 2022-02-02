@@ -9,7 +9,10 @@ html, body {
     justify-content:center;
     height: 80%;   
 }
-
+.btn-tan{
+    width: 200px !important;
+    margin-top: 20px;
+}
 
 footer {
     position: absolute;

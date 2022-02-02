@@ -1,42 +1,77 @@
-/* The sidebar menu */
-.sidenav {
-    height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 160px; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
-    left: 0;
-    background-color: #FF0000; /* Red */
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 20px;
-  }
-  
-  /* The navigation menu links */
-  .sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #FFFFFF;
-    display: block;
-  }
-  
-  /* When you mouse over the navigation links, change their color */
-  .sidenav a:hover {
-    color: #f1f1f1;
-  }
-
-  .navbar-brand{
-    margin-bottom: 250px;
+html, body {
+  margin: 0;
+  padding: 0;
 }
-  
-  /* Style page content */
-  .main {
-    margin-left: 160px; /* Same as the width of the sidebar */
-    padding: 0px 10px;
+
+body {
+  font-family: "Arial Rounded MT Bold", Arial, Helvetica, sans-serif !important;
+  background-color: whitesmoke;
+}
+
+.navbar-home {
+  background-color: #FF0000 !important;
+}
+
+.nav-link {
+  color: #FFFFFF !important;
+}
+.nav-link:hover {
+  background: #eb616c;
+}
+.nav-item{
+  display: inline-block;
+}
+.navbar-brand {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Classes */
+.main{
+   margin-top: 110px;
+}
+
+.miniatura {
+  padding: 0 5%;
+  margin: 5% auto;
+  max-width: 980px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cartao {
+  background-color: #DCDCDC;
+  display: inline-block;
+  margin-right: 16px;
+  margin-bottom: 18px;
+}
+
+.cartao:hover {
+  background-color: #c3c3c3;
+}
+
+.main a {
+  text-decoration: none;
+  color: #001 !important;
+}
+
+.main a:hover {
+  text-decoration: none;
+}
+
+.card-text {
+  font-size: 1.2em;
+}
+
+@media (max-width: 690px) {
+  .miniatura {
+    justify-content: center;
   }
-  
-  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+}
+
+@media (max-width: 650px) {
+  .cartao {
+    margin-right: 0;
   }
+}
