@@ -34,10 +34,9 @@ body {
 .miniatura {
   padding: 0 5%;
   margin: 5% auto;
-  max-width: 980px;
+  max-width: 790px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
 }
 
 .cartao {

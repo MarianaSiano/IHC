@@ -1,0 +1,32 @@
+body {
+    font-family: "Arial Rounded MT Bold", Arial, Helvetica, sans-serif !important;
+    background-color: whitesmoke;
+}
+
+.breadcrumb {
+    margin: 10px 4px !important;
+    background-color: whitesmoke !important;
+}
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 490px;
+    padding: 10px;
+    background: #f1f1f1;
+}
+
+#content{
+    margin-top: 50%;
+    transform: translateY(-50%);
+}
+
+#perguntas ul{
+    list-style-type: upper-alpha;
+}
+#perguntas ul li{
+    padding: 2px;
+}
