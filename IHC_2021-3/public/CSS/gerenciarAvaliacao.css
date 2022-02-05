@@ -17,6 +17,9 @@ body {
     width: 490px;
     padding: 10px;
     background: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px gray;
+    margin-top: 10px;
 }
 
 #content{
