@@ -1,0 +1,22 @@
+html, body {
+    height: 100%;
+    border: 1px solid red;
+
+}
+body{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    background-color: whitesmoke;
+    height: 300px ;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+select{
+    margin-top:20px;
+    margin-bottom: 20px;
+}

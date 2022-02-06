@@ -14,9 +14,10 @@
     </head>
     <body>
         <div class="container bg-white">
-            <form action="">
+            <form action="./selecionaDisciplina.html">
                 <fieldset >
-                    <h2 class="text-center mt-4">Formulário de Avaliação</h2>
+                    <h1 class="text-center mt-4">Formulário de Avaliação</h2>
+                    <h5 class="text-center mt-1 disciplina"></h5>
                     <ul class="main">
                         <li class="box">
                             <p>O professor disponibilizou o plano de curso da disciplina na primeira semana de aula?</p>
@@ -67,7 +68,7 @@
                         </li>
                     </ul><!-- /.main -->
                     <div class="buttons">
-                        <a class="btn btn-danger" href="./navbar.html">Cancelar</a>
+                        <a class="btn btn-danger" href="./selecionaDisciplina.html">Cancelar</a>
                         <input type="submit" class="btn-primary btn" value="Terminar avaliação e enviar">
                     </div>
                 </fieldset>
@@ -77,5 +78,21 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            $(document).ready(()=>{
+                disciplinas = [
+                    "Modelagem de Sistemas",
+                    "Interação Humano-Computador",
+                    "Física 2",
+                    "Espanhol Instrumental",
+                    "Laboratório de Programação I",
+                    "Algebra Linear"
+                ];
+                let indice = window.location.search.replace("?select=","");
+
+                console.log(indice);
+                $(".disciplina").html(disciplinas[indice]);
+            })
+        </script>
     </body>
 </html>
